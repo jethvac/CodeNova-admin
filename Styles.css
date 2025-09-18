@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0a1a;
+  color: #fff;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #8B5CF6;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(139, 92, 246, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.3);
+  text-align: left;
+}
+th {
+  background: rgba(139, 92, 246, 0.2);
+  color: #C084FC;
+}
+tr:hover {
+  background: rgba(139, 92, 246, 0.2);
+}
+.clear-btn {
+  background: #EF4444;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.clear-btn:hover {
+  background: #DC2626;
+}
